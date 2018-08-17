@@ -7,7 +7,7 @@
     tools:context=".OneMainActivity">
 
 
-    <Button
+    <!--<Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -21,19 +21,33 @@
         app:layout_constraintEnd_toStartOf="@+id/editText"
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent" />-->
 
-    <Button
+    <!--<Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Button"
         app:layout_constraintStart_toEndOf="@+id/button2"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/button2" />-->
 
-    <Spinner
+    <!--<Spinner
         android:id="@+id/mySpinner"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"></Spinner>
+        android:layout_height="50dp"
+        android:spinnerMode="dialog"
+        android:overScrollMode="ifContentScrolls"
+        android:scrollbarSize="15dp"
+        android:scrollbarThumbVertical="@drawable/ic_android_scrollbar"
+        android:scrollbarThumbHorizontal="@drawable/ic_android_scrollbar"
+        android:dropDownWidth="10dp"
+        android:maxHeight="20dp"></Spinner>-->
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ListView>
+
+
 
 </android.support.constraint.ConstraintLayout>
